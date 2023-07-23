@@ -2,23 +2,43 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+  
+    <style>
+      table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #bbc8ab;
+}
+
+      </style>
+
+ 
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= sub %></p>
+    <h2><%= sub %></h2>
     <table>
-      <% items.forEach((item)=>{ %>
       <tr>
-        <td>
-          <%= item.id %>
-        </td>
-        <td>
-          <%= item.title %>
-        </td> <td>
-          <%= item.description %>
-        </td>
+        <th>ID</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>Referance</th>
       </tr>
+      <% items.forEach((item) => { %>
+        <tr>
+          <td><%= item.id %></td>
+          <td><%= item.Term %></td> 
+          <td><%= item.Description %></td>
+          <td><%= item.Referance %></td>
+        </tr>
       <% }); %>
     </table>
   </body>
