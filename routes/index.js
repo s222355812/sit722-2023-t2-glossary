@@ -61,6 +61,36 @@ const itemList =[
   },
   {
     'id':20,'Term':'Service-Level Objective (SLO)', 'Description': 'Service level objectives (SLOs) specify a target level for the reliability of your service.Customers have specific expectations from a service and these expectations are characterized by specific indicators or SLIs that are tailored per the user journey. SLOs are a way to measure customer happiness and their expectations by ensuring that the SLIs are consistently met and are potentially reported before the customer notices an issue.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':21,'Term':'Docker container', 'Description': ' A container is a way of virtualizing a server. More formally, a container provides a way of virtualizing both the operating system and the hardware. This allows us to abstract (or virtualize) the resources required by our microservice. ','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':22,'Term':'Docker image', 'Description': 'An image is a bootable snapshot of a server (in our case, a microservice) including all the code, dependencies, and assets that it needs to run.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':23,'Term':'Dockerfile', 'Description': 'The Dockerfile is a specification for an image created by Docker. Dockerfile is like a script file with instructions on how to construct the image.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':24,'Term':'Docker Compose', 'Description': 'The Docker Compose file is a script that specifies how to compose an application from multiple Docker containers.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':25,'Term':'Azure Storagee', 'Description': 'Azure Storage is a service to store files in the cloud. We can manage the assets through the Azure Portal, through the APIs, or from the command line.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':26,'Term':'MongoDB', 'Description': 'MongoDB is a popular NoSQL type of database. Its lightweight, easy to setup and use, and its convenient for microservices.','Referance':'S. Madamanchi, “Google cloud for devops engineers,” O Reilly Online Learning, https://learning.oreilly.com/library/view/google-cloud-for/9781839218019/B15587_01_Final_ASB_ePub.xhtml#_idParaDest-26 (accessed Aug. 6, 2023). '
+  },
+  {
+    'id':27,'Term':'Cluster Storage', 'Description': 'Cluster storage refers to a storage solution that utilizes a cluster of interconnected servers or nodes to provide a unified and highly available storage infrastructure. In a cluster storage system, multiple servers work together to manage and store data. ','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':28,'Term':'Cloud Storage', 'Description': 'Cloud storage is a service offered by cloud providers that allows individuals and organizations to store and manage their data over the internet. Instead of relying on on-premises hardware, users can leverage the cloud providers infrastructure to store, access, and manage their data.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':29,'Term':'Docker registry', 'Description': 'A Docker registry is a central repository for storing and distributing Docker container images. It serves as a key component in the Docker ecosystem, allowing developers to share and distribute container images, which are lightweight, portable, and self-contained software packages that include everything needed to run an application, including the code, runtime, libraries, and dependencies.','Referance':'S. Madamanchi, “Google cloud for devops engineers,” O Reilly Online Learning, https://learning.oreilly.com/library/view/google-cloud-for/9781839218019/B15587_01_Final_ASB_ePub.xhtml#_idParaDest-26 (accessed Aug. 6, 2023).'
+  },
+  {
+    'id':30,'Term':'Azure Container Registry (ACR)', 'Description': 'Azure Container Registry (ACR) is a managed container registry service provided by Microsoft Azure. It is designed to store, manage, and secure container images for applications that use containerization technology, such as Docker. ','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
   }
 ];
 
