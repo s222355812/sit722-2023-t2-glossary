@@ -75,7 +75,7 @@ const itemList =[
     'id':24,'Term':'Docker Compose', 'Description': 'The Docker Compose file is a script that specifies how to compose an application from multiple Docker containers.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
   },
   {
-    'id':25,'Term':'Azure Storagee', 'Description': 'Azure Storage is a service to store files in the cloud. We can manage the assets through the Azure Portal, through the APIs, or from the command line.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+    'id':25,'Term':'Azure Storage', 'Description': 'Azure Storage is a service to store files in the cloud. We can manage the assets through the Azure Portal, through the APIs, or from the command line.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
   },
   {
     'id':26,'Term':'MongoDB', 'Description': 'MongoDB is a popular NoSQL type of database. Its lightweight, easy to setup and use, and its convenient for microservices.','Referance':'S. Madamanchi, “Google cloud for devops engineers,” O Reilly Online Learning, https://learning.oreilly.com/library/view/google-cloud-for/9781839218019/B15587_01_Final_ASB_ePub.xhtml#_idParaDest-26 (accessed Aug. 6, 2023). '
@@ -91,6 +91,36 @@ const itemList =[
   },
   {
     'id':30,'Term':'Azure Container Registry (ACR)', 'Description': 'Azure Container Registry (ACR) is a managed container registry service provided by Microsoft Azure. It is designed to store, manage, and secure container images for applications that use containerization technology, such as Docker. ','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':31,'Term':'RabbitMQ', 'Description': 'RabbitMQ is the message queuing software that we will use to send indirect (or asynchronous) messages from one microservice to another','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':32,'Term':'amqplib', 'Description': 'This npm package allows us to configure RabbitMQ and to send and receive messages from JavaScript.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':33,'Term':'viewed message', 'Description': 'The message we will transmit between microservices is the viewed message. This is how the video-streaming microservice informs the history microservice that the user has watched a video.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':34,'Term':'nodemon', 'Description': 'Nodemon is a utility tool used in web development for automatically restarting the server or application whenever changes are detected in the source code. ','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':35,'Term':'Direct messaging', 'Description': 'Direct messaging simply means that one microservice directly sends a message to another microservice and then receives an immediate and direct response.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':36,'Term':'Indirect messaging', 'Description': 'Indirect messaging introduces an intermediary between the endpoints in the communication process. We add a middleman to sit between our microservices. For that reason, the two parties of the communication dont actually have to know about each other. ','Referance':'S. Madamanchi, “Google cloud for devops engineers,” O Reilly Online Learning, https://learning.oreilly.com/library/view/google-cloud-for/9781839218019/B15587_01_Final_ASB_ePub.xhtml#_idParaDest-26 (accessed Aug. 6, 2023). '
+  },
+  {
+    'id':37,'Term':'Terraform', 'Description': 'Terraform allows us to script the creation of cloud resources and application infrastructure.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':38,'Term':'Kubernetes', 'Description': 'Kubernetes is the computing platform that we use to host our microservices in production.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':39,'Term':'Kubectl', 'Description': 'Kubectl is the command-line tool for interacting with a Kubernetes cluster.','Referance':'S. Madamanchi, “Google cloud for devops engineers,” O Reilly Online Learning, https://learning.oreilly.com/library/view/google-cloud-for/9781839218019/B15587_01_Final_ASB_ePub.xhtml#_idParaDest-26 (accessed Aug. 6, 2023).'
+  },
+  {
+    'id':40,'Term':'Azure CLI', 'Description': 'We will use the Azure command-line tool to authenticate with Azure and give Terraform access to our Azure account. This tool is generally useful for managing Azure accounts and cloud resources.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
   }
 ];
 
