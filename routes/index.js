@@ -121,6 +121,36 @@ const itemList =[
   },
   {
     'id':40,'Term':'Azure CLI', 'Description': 'We will use the Azure command-line tool to authenticate with Azure and give Terraform access to our Azure account. This tool is generally useful for managing Azure accounts and cloud resources.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':41,'Term':'Hashicorp Configuration Language (HCL)', 'Description': 'HCL is the declarative configuration language in which we will define our infrastructure. Executing this code with Terraform actually creates our infrastructure in the cloud','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':42,'Term':'Azure Resource Groups', 'Description': 'Resource Groups are a fundamental concept in Azures resource management model and play a crucial role in simplifying resource management, deployment, and maintenance in the Azure cloud environment.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':43,'Term':'Azure Container Registry', 'Description': 'Azure Container Registry (ACR) is a cloud-based container registry service provided by Microsoft Azure. ACR enables developers and organizations to store, manage, and distribute container images securely and efficiently, making it a crucial component of modern container-based application development and deployment workflows.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':44,'Term':'Azure Kubernetes Service (AKS)', 'Description': 'An Azure Kubernetes Service (AKS) cluster is a managed container orchestration platform provided by Microsoft Azure. It simplifies the deployment, management, and scaling of containerized applications using Kubernetes, an open-source container orchestration tool. ','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':45,'Term':'Pods', 'Description': 'Pods are the smallest deployable units in Kubernetes and can contain one or more containers that share the same network namespace. Containers within a Pod can communicate with each other using localhost and share storage volumes.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':46,'Term':'Bitbucket Pipelines', 'Description': 'The hosted service from Atlassian that we will use for CD to automate the deployment of our application.','Referance':'S. Madamanchi, “Google cloud for devops engineers,” O Reilly Online Learning, https://learning.oreilly.com/library/view/google-cloud-for/9781839218019/B15587_01_Final_ASB_ePub.xhtml#_idParaDest-26 (accessed Aug. 6, 2023). '
+  },
+  {
+    'id':47,'Term':'Azure Load Balancer', 'Description': 'Azure Load Balancer is a cloud-based, fully managed networking service whose primary purpose is to distribute incoming network traffic (such as web requests or application data) across multiple virtual machines (VMs) or instances within a virtual network to ensure high availability, improved performance, and fault tolerance for applications hosted in Azure.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':48,'Term':'Kubernetes cluster', 'Description':  'Kubernetes cluster is a group of interconnected computers, often referred to as nodes or instances, that work together to manage and orchestrate containerized applications. ','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
+  },
+  {
+    'id':49,'Term':'Kubelet', 'Description': ' The kubelet is an agent that runs on each worker node and is responsible for ensuring that containers are running in a pod. It communicates with the master node to receive instructions about pod deployments and monitors the containers health.','Referance':'S. Madamanchi, “Google cloud for devops engineers,” O Reilly Online Learning, https://learning.oreilly.com/library/view/google-cloud-for/9781839218019/B15587_01_Final_ASB_ePub.xhtml#_idParaDest-26 (accessed Aug. 6, 2023).'
+  },
+  {
+    'id':50,'Term':'Deployment Shell Script', 'Description': 'A deployment shell script is a script written in a shell scripting language, such as Bash, that automates the process of deploying software or applications to a target environment. These scripts are used by developers and system administrators to streamline and simplify the deployment process, ensuring that software is correctly and consistently installed, configured, and updated on servers or other computing resources.','Referance':'M. COUPLAND, DEVOPS Adoption Strategies: Principles, Processes,Tools, and Trends. S.l.: PACKT PUBLISHING LIMITED, 2021.'
   }
 ];
 
